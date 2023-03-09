@@ -17,7 +17,7 @@ const Create = () => {
       <div className="courses-nav">
         <Link to="/Create/createvent" className="nav-links">New event</Link>
         <div className="sep"></div>
-        <Link to="/Create/editevent" className="nav-links">Edit event</Link>
+        <Link to="/Create/editevent" className="nav-links">Liked Event</Link>
       </div>
         <Outlet /></div>
     </div>
