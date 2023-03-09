@@ -1,0 +1,48 @@
+.tags-list{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.tags{
+    padding: 4px;
+    margin: 25px;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(229, 231, 231);
+    transition: 0.2s;
+}
+
+
+.tags:hover{
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.55);
+}
+
+.search-bardiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.like-button{
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    
+}
+
+.dislike-button{
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    transform: rotate(-180deg);
+}
+
+
+
+.likebuttons{
+    display: flex;
+    flex-direction: row;
+}

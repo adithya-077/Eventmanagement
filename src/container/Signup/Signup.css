@@ -1,0 +1,17 @@
+.signupinput {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.35);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  width: 20%;
+  height: 70%;
+  overflow: scroll;
+
+}
+
+.signupinput::-webkit-scrollbar{
+    display: none;
+}

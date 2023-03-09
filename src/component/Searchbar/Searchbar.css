@@ -1,0 +1,29 @@
+.header-search {
+  font-family: Inter;
+  font-size: 30px;
+  margin: 20px;
+}
+
+#header-search {
+  width: 60%;
+  height: 10px;
+  font-size: 900;
+  font-size: 18px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-button {
+  background-color: rgb(44, 38, 38);
+  color: #f6f4f4;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 30px;
+  box-shadow: 5px 10px 15px rgba(255, 116, 23, 0.295);
+  transition: 0.5s;
+  margin-left: 20px;
+}
+

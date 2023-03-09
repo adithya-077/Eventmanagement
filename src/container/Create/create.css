@@ -1,0 +1,63 @@
+
+.courses-nav{
+    background: #f2f2f2;
+    height: 4vh;;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    width: 100%;
+    
+  }
+
+  .nav-links{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: Inter;
+    transition: 0.2s;
+    
+  }
+  .nav-links:hover{
+    font-weight: 900;
+    font-size: 16px;
+  }
+
+  .sep{
+    width: 10px;
+  }
+
+  .create-heading{
+    margin: 20px;
+    /* border: 1px solid rgb(112, 111, 111); */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.35);
+  }
+.head-heading{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 35px;
+    color: black;
+    
+  }
+
+  .heading-content{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(88, 87, 87);
+  }
+
+  .outlet-div{
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.35);
+    margin: 20px;
+    height: 100vh;
+    overflow: scroll;
+  }
+
+  .outlet-div::-webkit-scrollbar{
+    display:block;
+  }

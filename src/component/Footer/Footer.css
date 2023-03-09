@@ -1,0 +1,65 @@
+.Footer-main{
+    background-color: black;
+    color: #f6f4f4;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    
+
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Inter;
+    text-transform: uppercase;
+}
+
+.Footer-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.emailinputnbtn{
+    width: 30%;
+    padding-top:20px ;
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    justify-content: center;
+    
+
+}
+
+.emlinp{
+    height: 32px;
+    border: none;
+    width: 70%;
+}
+
+.footerbtn{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    border: none;
+    font-family: Inter;
+    width: 20%;
+}
+
+.icons{
+    font-size: 25px;
+    background-color: #f6f4f4;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    color: black;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.up{
+    text-decoration: none;
+    color: #f6f4f4;
+    display: flex;
+    
+}
